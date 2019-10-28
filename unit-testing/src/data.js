@@ -1,11 +1,11 @@
 let movies = [
   {
     title: "The Shawshank Redemption",
-    year: 1994,
+    "year": 1994,
     director: "Frank Darabont",
     duration: "2h 22min",
     genre: ["Crime", "Drama"],
-    rate: 9.3
+    rate: 9.3,
   },
   {
     title: "The Godfather",
@@ -13,7 +13,7 @@ let movies = [
     director: "Francis Ford Coppola",
     duration: "2h 55min",
     genre: ["Crime", "Drama"],
-    rate: 9.2
+    rate: 9.2,
   },
   {
     title: "The Godfather: Part II",
@@ -21,7 +21,7 @@ let movies = [
     director: "Francis Ford Coppola",
     duration: "3h 22min",
     genre: ["Crime", "Drama"],
-    rate: 9
+    rate: 9,
   },
   {
     title: "The Dark Knight",
@@ -29,7 +29,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 32min",
     genre: ["Action", "Crime", "Drama", "Thriller"],
-    rate: 9
+    rate: 9,
   },
   {
     title: "12 Angry Men",
@@ -37,7 +37,7 @@ let movies = [
     director: "Sidney Lumet",
     duration: "1h 36min",
     genre: ["Crime", "Drama"],
-    rate: 8.9
+    rate: 8.9,
   },
   {
     title: 'Schindler"s List',
@@ -45,7 +45,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "3h 15min",
     genre: ["Biography", "Drama", "History"],
-    rate: 8.9
+    rate: 8.9,
   },
   {
     title: "Pulp Fiction",
@@ -53,7 +53,7 @@ let movies = [
     director: "Quentin Tarantino",
     duration: "2h 34min",
     genre: ["Crime", "Drama"],
-    rate: 8.9
+    rate: 8.9,
   },
   {
     title: "The Lord of the Rings: The Return of the King",
@@ -61,7 +61,7 @@ let movies = [
     director: "Peter Jackson",
     duration: "3h 21min",
     genre: ["Adventure", "Drama", "Fantasy"],
-    rate: 8.9
+    rate: 8.9,
   },
   {
     title: "Il buono, il brutto, il cattivo",
@@ -69,7 +69,7 @@ let movies = [
     director: "Sergio Leone",
     duration: "3h 2min",
     genre: ["Western"],
-    rate: 8.9
+    rate: 8.9,
   },
   {
     title: "Fight Club",
@@ -77,7 +77,7 @@ let movies = [
     director: "David Fincher",
     duration: "2h 19min",
     genre: ["Drama"],
-    rate: 8.8
+    rate: 8.8,
   },
   {
     title: "The Lord of the Rings: The Fellowship of the Ring",
@@ -85,7 +85,7 @@ let movies = [
     director: "Peter Jackson",
     duration: "2h 58min",
     genre: ["Adventure", "Drama", "Fantasy"],
-    rate: 8.8
+    rate: 8.8,
   },
   {
     title: "Forrest Gump",
@@ -93,7 +93,7 @@ let movies = [
     director: "Robert Zemeckis",
     duration: "2h 22min",
     genre: ["Comedy", "Drama", "Romance"],
-    rate: 8.8
+    rate: 8.8,
   },
   {
     title: "Star Wars: Episode V - The Empire Strikes Back",
@@ -101,7 +101,7 @@ let movies = [
     director: "Irvin Kershner",
     duration: "2h 4min",
     genre: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-    rate: 8.8
+    rate: 8.8,
   },
   {
     title: "Inception",
@@ -109,7 +109,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 28min",
     genre: ["Action", "Adventure", "Sci-Fi", "Thriller"],
-    rate: 8.8
+    rate: 8.8,
   },
   {
     title: "The Lord of the Rings: The Two Towers",
@@ -117,7 +117,7 @@ let movies = [
     director: "Peter Jackson",
     duration: "2h 59min",
     genre: ["Adventure", "Drama", "Fantasy"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: 'One Flew Over the Cuckoo"s Nest',
@@ -125,7 +125,7 @@ let movies = [
     director: "Milos Forman",
     duration: "2h 13min",
     genre: ["Drama"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "Goodfellas",
@@ -133,7 +133,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "2h 26min",
     genre: ["Crime", "Drama"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "The Matrix",
@@ -141,7 +141,7 @@ let movies = [
     director: "Lana Wachowski",
     duration: "2h 16min",
     genre: ["Action", "Sci-Fi"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "Shichinin no samurai",
@@ -149,7 +149,7 @@ let movies = [
     director: "Akira Kurosawa",
     duration: "3h 27min",
     genre: ["Adventure", "Drama"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "Star Wars",
@@ -157,7 +157,7 @@ let movies = [
     director: "George Lucas",
     duration: "2h 1min",
     genre: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "Cidade de Deus",
@@ -165,7 +165,7 @@ let movies = [
     director: "Fernando Meirelles",
     duration: "2h 10min",
     genre: ["Crime", "Drama"],
-    rate: 8.7
+    rate: 8.7,
   },
   {
     title: "Se7en",
@@ -173,7 +173,7 @@ let movies = [
     director: "David Fincher",
     duration: "2h 7min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "The Silence of the Lambs",
@@ -181,7 +181,7 @@ let movies = [
     director: "Jonathan Demme",
     duration: "1h 58min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: 'It"s a Wonderful Life',
@@ -189,7 +189,7 @@ let movies = [
     director: "Frank Capra",
     duration: "2h 10min",
     genre: ["Drama", "Family", "Fantasy"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "La vita è bella",
@@ -197,7 +197,7 @@ let movies = [
     director: "Roberto Benigni",
     duration: "1h 56min",
     genre: ["Comedy", "Drama", "War"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "The Usual Suspects",
@@ -205,7 +205,7 @@ let movies = [
     director: "Bryan Singer",
     duration: "1h 46min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Léon",
@@ -213,7 +213,7 @@ let movies = [
     director: "Luc Besson",
     duration: "1h 50min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Saving Private Ryan",
@@ -221,7 +221,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "2h 49min",
     genre: ["Drama", "War"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Sen to Chihiro no kamikakushi",
@@ -229,7 +229,7 @@ let movies = [
     director: "Hayao Miyazaki",
     duration: "2h 5min",
     genre: ["Animation", "Adventure", "Family", "Fantasy", "Mystery"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "American History X",
@@ -237,7 +237,7 @@ let movies = [
     director: "Tony Kaye",
     duration: "1h 59min",
     genre: ["Crime", "Drama"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: 'C"era una volta il West',
@@ -245,7 +245,7 @@ let movies = [
     director: "Sergio Leone",
     duration: "2h 44min",
     genre: ["Western"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Interstellar",
@@ -253,7 +253,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 49min",
     genre: ["Adventure", "Drama", "Sci-Fi"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Psycho",
@@ -261,7 +261,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "1h 49min",
     genre: ["Horror", "Mystery", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Green Mile",
@@ -269,7 +269,7 @@ let movies = [
     director: "Frank Darabont",
     duration: "3h 9min",
     genre: ["Crime", "Drama", "Fantasy", "Mystery"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Casablanca",
@@ -277,7 +277,7 @@ let movies = [
     director: "Michael Curtiz",
     duration: "1h 42min",
     genre: ["Drama", "Romance", "War"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "City Lights",
@@ -285,7 +285,7 @@ let movies = [
     director: "Charles Chaplin",
     duration: "1h 27min",
     genre: ["Comedy", "Drama", "Romance"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Intouchables",
@@ -293,7 +293,7 @@ let movies = [
     director: "Olivier Nakache",
     duration: "1h 52min",
     genre: ["Biography", "Comedy", "Drama"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Modern Times",
@@ -301,7 +301,7 @@ let movies = [
     director: "Charles Chaplin",
     duration: "1h 27min",
     genre: ["Comedy", "Drama", "Family", "Romance"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Raiders of the Lost Ark",
@@ -309,7 +309,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "1h 55min",
     genre: ["Action", "Adventure"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Pianist",
@@ -317,7 +317,7 @@ let movies = [
     director: "Roman Polanski",
     duration: "2h 30min",
     genre: ["Biography", "Drama", "Music", "War"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Departed",
@@ -325,7 +325,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "2h 31min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Rear Window",
@@ -333,7 +333,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "1h 52min",
     genre: ["Mystery", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Terminator 2: Judgment Day",
@@ -341,7 +341,7 @@ let movies = [
     director: "James Cameron",
     duration: "2h 17min",
     genre: ["Action", "Sci-Fi", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Back to the Future",
@@ -349,7 +349,7 @@ let movies = [
     director: "Robert Zemeckis",
     duration: "1h 56min",
     genre: ["Adventure", "Comedy", "Sci-Fi"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Whiplash",
@@ -357,7 +357,7 @@ let movies = [
     director: "Damien Chazelle",
     duration: "1h 47min",
     genre: ["Drama", "Music"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Gladiator",
@@ -365,7 +365,7 @@ let movies = [
     director: "Ridley Scott",
     duration: "2h 35min",
     genre: ["Action", "Adventure", "Drama"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Prestige",
@@ -373,7 +373,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 10min",
     genre: ["Drama", "Mystery", "Sci-Fi", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Lion King",
@@ -381,7 +381,7 @@ let movies = [
     director: "Roger Allers",
     duration: "1h 28min",
     genre: ["Animation", "Adventure", "Drama", "Family", "Musical"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Memento",
@@ -389,7 +389,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "1h 53min",
     genre: ["Mystery", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Apocalypse Now",
@@ -397,7 +397,7 @@ let movies = [
     director: "Francis Ford Coppola",
     duration: "2h 27min",
     genre: ["Drama", "War"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Alien",
@@ -405,7 +405,7 @@ let movies = [
     director: "Ridley Scott",
     duration: "1h 57min",
     genre: ["Horror", "Sci-Fi"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "The Great Dictator",
@@ -413,7 +413,7 @@ let movies = [
     director: "Charles Chaplin",
     duration: "2h 5min",
     genre: ["Comedy", "Drama", "War"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Sunset Blvd.",
@@ -421,7 +421,7 @@ let movies = [
     director: "Billy Wilder",
     duration: "1h 50min",
     genre: ["Drama", "Film-Noir"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title:
@@ -430,7 +430,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "1h 35min",
     genre: ["Comedy"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Nuovo Cinema Paradiso",
@@ -438,7 +438,7 @@ let movies = [
     director: "Giuseppe Tornatore",
     duration: "2h 35min",
     genre: ["Drama"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Das Leben der Anderen",
@@ -446,7 +446,7 @@ let movies = [
     director: "Florian Henckel von Donnersmarck",
     duration: "2h 17min",
     genre: ["Drama", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Hotaru no haka",
@@ -454,7 +454,7 @@ let movies = [
     director: "Isao Takahata",
     duration: "1h 29min",
     genre: ["Animation", "Drama", "War"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Blade Runner 2049",
@@ -462,7 +462,7 @@ let movies = [
     director: "Denis Villeneuve",
     duration: "2h 44min",
     genre: ["Mystery", "Sci-Fi", "Thriller"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Paths of Glory",
@@ -470,7 +470,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "1h 28min",
     genre: ["Drama", "War"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Django Unchained",
@@ -478,7 +478,7 @@ let movies = [
     director: "Quentin Tarantino",
     duration: "2h 45min",
     genre: ["Drama", "Western"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "The Shining",
@@ -486,7 +486,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "2h 26min",
     genre: ["Drama", "Horror"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "WALL·E",
@@ -494,7 +494,7 @@ let movies = [
     director: "Andrew Stanton",
     duration: "1h 38min",
     genre: ["Animation", "Adventure", "Family", "Sci-Fi"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "American Beauty",
@@ -502,7 +502,7 @@ let movies = [
     director: "Sam Mendes",
     duration: "2h 2min",
     genre: ["Drama", "Romance"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "The Dark Knight Rises",
@@ -510,7 +510,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 44min",
     genre: ["Action", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Mononoke-hime",
@@ -518,7 +518,7 @@ let movies = [
     director: "Hayao Miyazaki",
     duration: "2h 14min",
     genre: ["Animation", "Adventure", "Fantasy"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Oldeuboi",
@@ -526,7 +526,7 @@ let movies = [
     director: "Chan-wook Park",
     duration: "2h",
     genre: ["Action", "Drama", "Mystery", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Aliens",
@@ -534,7 +534,7 @@ let movies = [
     director: "James Cameron",
     duration: "2h 17min",
     genre: ["Action", "Adventure", "Sci-Fi", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Witness for the Prosecution",
@@ -542,7 +542,7 @@ let movies = [
     director: "Billy Wilder",
     duration: "1h 56min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Once Upon a Time in America",
@@ -550,7 +550,7 @@ let movies = [
     director: "Sergio Leone",
     duration: "3h 49min",
     genre: ["Crime", "Drama"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Das Boot",
@@ -558,7 +558,7 @@ let movies = [
     director: "Wolfgang Petersen",
     duration: "2h 29min",
     genre: ["Adventure", "Drama", "Thriller", "War"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Citizen Kane",
@@ -566,7 +566,7 @@ let movies = [
     director: "Orson Welles",
     duration: "1h 59min",
     genre: ["Drama", "Mystery"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Dangal",
@@ -574,7 +574,7 @@ let movies = [
     director: "Nitesh Tiwari",
     duration: "2h 41min",
     genre: ["Action", "Biography", "Drama", "Sport"],
-    rate: 8.6
+    rate: 8.6,
   },
   {
     title: "Vertigo",
@@ -582,7 +582,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "2h 8min",
     genre: ["Mystery", "Romance", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "North by Northwest",
@@ -590,7 +590,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "2h 16min",
     genre: ["Action", "Adventure", "Mystery", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Star Wars: Episode VI - Return of the Jedi",
@@ -598,7 +598,7 @@ let movies = [
     director: "Richard Marquand",
     duration: "2h 11min",
     genre: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Braveheart",
@@ -606,7 +606,7 @@ let movies = [
     director: "Mel Gibson",
     duration: "2h 58min",
     genre: ["Biography", "Drama", "History", "War"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Reservoir Dogs",
@@ -614,7 +614,7 @@ let movies = [
     director: "Quentin Tarantino",
     duration: "1h 39min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "M",
@@ -622,7 +622,7 @@ let movies = [
     director: "Fritz Lang",
     duration: "1h 57min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Requiem for a Dream",
@@ -630,7 +630,7 @@ let movies = [
     director: "Darren Aronofsky",
     duration: "1h 42min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: 'Le fabuleux destin d"Amélie Poulain',
@@ -638,7 +638,7 @@ let movies = [
     director: "Jean-Pierre Jeunet",
     duration: "2h 2min",
     genre: ["Comedy", "Romance"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Taare Zameen Par",
@@ -646,7 +646,7 @@ let movies = [
     director: "Aamir Khan",
     duration: "2h 45min",
     genre: ["Drama", "Family"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "A Clockwork Orange",
@@ -654,7 +654,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "2h 16min",
     genre: ["Crime", "Drama", "Sci-Fi"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Kimi no na wa.",
@@ -662,7 +662,7 @@ let movies = [
     director: "Makoto Shinkai",
     duration: "1h 46min",
     genre: ["Animation", "Drama", "Fantasy", "Romance"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Lawrence of Arabia",
@@ -670,7 +670,7 @@ let movies = [
     director: "David Lean",
     duration: "3h 36min",
     genre: ["Adventure", "Biography", "Drama", "History", "War"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Double Indemnity",
@@ -678,7 +678,7 @@ let movies = [
     director: "Billy Wilder",
     duration: "1h 47min",
     genre: ["Crime", "Drama", "Film-Noir", "Mystery", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Amadeus",
@@ -686,7 +686,7 @@ let movies = [
     director: "Milos Forman",
     duration: "2h 40min",
     genre: ["Biography", "Drama", "History", "Music"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Eternal Sunshine of the Spotless Mind",
@@ -694,7 +694,7 @@ let movies = [
     director: "Michel Gondry",
     duration: "1h 48min",
     genre: ["Drama", "Romance", "Sci-Fi"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Taxi Driver",
@@ -702,7 +702,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "1h 53min",
     genre: ["Crime", "Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "To Kill a Mockingbird",
@@ -710,7 +710,7 @@ let movies = [
     director: "Robert Mulligan",
     duration: "2h 9min",
     genre: ["Crime", "Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Dunkirk",
@@ -718,7 +718,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "1h 46min",
     genre: ["Action", "Drama", "History", "Thriller", "War"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Full Metal Jacket",
@@ -726,7 +726,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "1h 56min",
     genre: ["Drama", "War"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "2001: A Space Odyssey",
@@ -734,7 +734,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "2h 29min",
     genre: ["Adventure", "Sci-Fi"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: 'Singin" in the Rain',
@@ -742,7 +742,7 @@ let movies = [
     director: "Stanley Donen",
     duration: "1h 43min",
     genre: ["Comedy", "Musical", "Romance"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Toy Story 3",
@@ -750,7 +750,7 @@ let movies = [
     director: "Lee Unkrich",
     duration: "1h 43min",
     genre: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Toy Story",
@@ -758,7 +758,7 @@ let movies = [
     director: "John Lasseter",
     duration: "1h 21min",
     genre: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "The Sting",
@@ -766,7 +766,7 @@ let movies = [
     director: "George Roy Hill",
     duration: "2h 9min",
     genre: ["Comedy", "Crime", "Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "3 Idiots",
@@ -774,7 +774,7 @@ let movies = [
     director: "Rajkumar Hirani",
     duration: "2h 50min",
     genre: ["Adventure", "Comedy", "Drama", "Romance"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Ladri di biciclette",
@@ -782,7 +782,7 @@ let movies = [
     director: "Vittorio De Sica",
     duration: "1h 29min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Inglourious Basterds",
@@ -790,7 +790,7 @@ let movies = [
     director: "Quentin Tarantino",
     duration: "2h 33min",
     genre: ["Adventure", "Drama", "War"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "The Kid",
@@ -798,7 +798,7 @@ let movies = [
     director: "Charles Chaplin",
     duration: "1h 8min",
     genre: ["Comedy", "Drama", "Family"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Snatch",
@@ -806,7 +806,7 @@ let movies = [
     director: "Guy Ritchie",
     duration: "1h 44min",
     genre: ["Comedy", "Crime"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Monty Python and the Holy Grail",
@@ -814,7 +814,7 @@ let movies = [
     director: "Terry Gilliam",
     duration: "1h 31min",
     genre: ["Adventure", "Comedy", "Fantasy"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Good Will Hunting",
@@ -822,7 +822,7 @@ let movies = [
     director: "Gus Van Sant",
     duration: "2h 6min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Jagten",
@@ -830,7 +830,7 @@ let movies = [
     director: "Thomas Vinterberg",
     duration: "1h 55min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Per qualche dollaro in più",
@@ -838,7 +838,7 @@ let movies = [
     director: "Sergio Leone",
     duration: "2h 12min",
     genre: ["Western"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "L.A. Confidential",
@@ -846,7 +846,7 @@ let movies = [
     director: "Curtis Hanson",
     duration: "2h 18min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Scarface",
@@ -854,7 +854,7 @@ let movies = [
     director: "Brian De Palma",
     duration: "2h 50min",
     genre: ["Crime", "Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "The Apartment",
@@ -862,7 +862,7 @@ let movies = [
     director: "Billy Wilder",
     duration: "2h 5min",
     genre: ["Comedy", "Drama", "Romance"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Metropolis",
@@ -870,7 +870,7 @@ let movies = [
     director: "Fritz Lang",
     duration: "2h 33min",
     genre: ["Drama", "Sci-Fi"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Jodaeiye Nader az Simin",
@@ -878,7 +878,7 @@ let movies = [
     director: "Asghar Farhadi",
     duration: "2h 3min",
     genre: ["Drama", "Mystery"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Rashômon",
@@ -886,7 +886,7 @@ let movies = [
     director: "Akira Kurosawa",
     duration: "1h 28min",
     genre: ["Crime", "Drama", "Mystery"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Indiana Jones and the Last Crusade",
@@ -894,7 +894,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "2h 7min",
     genre: ["Action", "Adventure", "Fantasy"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "All About Eve",
@@ -902,7 +902,7 @@ let movies = [
     director: "Joseph L. Mankiewicz",
     duration: "2h 18min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Yôjinbô",
@@ -910,7 +910,7 @@ let movies = [
     director: "Akira Kurosawa",
     duration: "1h 50min",
     genre: ["Action", "Drama", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Babam ve Oglum",
@@ -918,7 +918,7 @@ let movies = [
     director: "Çagan Irmak",
     duration: "1h 48min",
     genre: ["Drama"],
-    rate: 8.5
+    rate: 8.5,
   },
   {
     title: "Up",
@@ -926,7 +926,7 @@ let movies = [
     director: "Pete Docter",
     duration: "1h 36min",
     genre: ["Animation", "Adventure", "Comedy", "Family"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Batman Begins",
@@ -934,7 +934,7 @@ let movies = [
     director: "Christopher Nolan",
     duration: "2h 32min",
     genre: ["Action", "Adventure", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Some Like It Hot",
@@ -942,7 +942,7 @@ let movies = [
     director: "Billy Wilder",
     duration: "2h 1min",
     genre: ["Comedy", "Romance"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "The Treasure of the Sierra Madre",
@@ -950,7 +950,7 @@ let movies = [
     director: "John Huston",
     duration: "2h 6min",
     genre: ["Adventure", "Drama", "Western"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Unforgiven",
@@ -958,7 +958,7 @@ let movies = [
     director: "Clint Eastwood",
     duration: "2h 10min",
     genre: ["Drama", "Western"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Der Untergang",
@@ -966,7 +966,7 @@ let movies = [
     director: "Oliver Hirschbiegel",
     duration: "2h 36min",
     genre: ["Biography", "Drama", "History", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Die Hard",
@@ -974,7 +974,7 @@ let movies = [
     director: "John McTiernan",
     duration: "2h 11min",
     genre: ["Action", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Raging Bull",
@@ -982,7 +982,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "2h 9min",
     genre: ["Biography", "Drama", "Sport"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Heat",
@@ -990,7 +990,7 @@ let movies = [
     director: "Michael Mann",
     duration: "2h 50min",
     genre: ["Action", "Crime", "Drama", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The Third Man",
@@ -998,7 +998,7 @@ let movies = [
     director: "Carol Reed",
     duration: "1h 44min",
     genre: ["Film-Noir", "Mystery", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Bacheha-Ye aseman",
@@ -1006,7 +1006,7 @@ let movies = [
     director: "Majid Majidi",
     duration: "1h 29min",
     genre: ["Drama", "Family"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "The Great Escape",
@@ -1014,7 +1014,7 @@ let movies = [
     director: "John Sturges",
     duration: "2h 52min",
     genre: ["Adventure", "Drama", "History", "Thriller", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Ikiru",
@@ -1022,7 +1022,7 @@ let movies = [
     director: "Akira Kurosawa",
     duration: "2h 23min",
     genre: ["Drama"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Chinatown",
@@ -1030,7 +1030,7 @@ let movies = [
     director: "Roman Polanski",
     duration: "2h 10min",
     genre: ["Drama", "Mystery", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "El laberinto del fauno",
@@ -1038,7 +1038,7 @@ let movies = [
     director: "Guillermo del Toro",
     duration: "1h 58min",
     genre: ["Drama", "Fantasy", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Tonari no Totoro",
@@ -1046,7 +1046,7 @@ let movies = [
     director: "Hayao Miyazaki",
     duration: "1h 26min",
     genre: ["Animation", "Family", "Fantasy"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Incendies",
@@ -1054,7 +1054,7 @@ let movies = [
     director: "Denis Villeneuve",
     duration: "2h 11min",
     genre: ["Drama", "Mystery", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Ran",
@@ -1062,7 +1062,7 @@ let movies = [
     director: "Akira Kurosawa",
     duration: "2h 42min",
     genre: ["Action", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The Gold Rush",
@@ -1070,7 +1070,7 @@ let movies = [
     director: "Charles Chaplin",
     duration: "1h 35min",
     genre: ["Adventure", "Comedy", "Drama", "Family"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "El secreto de sus ojos",
@@ -1078,15 +1078,22 @@ let movies = [
     director: "Juan José Campanella",
     duration: "2h 9min",
     genre: ["Drama", "Mystery", "Romance", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Inside Out",
     year: 2014,
     director: "Pete Docter",
     duration: "1h 35min",
-    genre: ["Animation", "Adventure", "Comedy", "Drama", "Family", "Fantasy"],
-    rate: 8.2
+    genre: [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Fantasy",
+    ],
+    rate: 8.2,
   },
   {
     title: "Judgment at Nuremberg",
@@ -1094,7 +1101,7 @@ let movies = [
     director: "Stanley Kramer",
     duration: "3h 6min",
     genre: ["Drama", "War"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "On the Waterfront",
@@ -1102,7 +1109,7 @@ let movies = [
     director: "Elia Kazan",
     duration: "1h 48min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Hauru no ugoku shiro",
@@ -1110,7 +1117,7 @@ let movies = [
     director: "Hayao Miyazaki",
     duration: "1h 59min",
     genre: ["Animation", "Adventure", "Family", "Fantasy"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The Bridge on the River Kwai",
@@ -1118,7 +1125,7 @@ let movies = [
     director: "David Lean",
     duration: "2h 41min",
     genre: ["Adventure", "Drama", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Room",
@@ -1126,7 +1133,7 @@ let movies = [
     director: "Lenny Abrahamson",
     duration: "1h 58min",
     genre: ["Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Det sjunde inseglet",
@@ -1134,7 +1141,7 @@ let movies = [
     director: "Ingmar Bergman",
     duration: "1h 36min",
     genre: ["Drama", "Fantasy"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Lock, Stock and Two Smoking Barrels",
@@ -1142,7 +1149,7 @@ let movies = [
     director: "Guy Ritchie",
     duration: "1h 47min",
     genre: ["Comedy", "Crime"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Mr. Smith Goes to Washington",
@@ -1150,7 +1157,7 @@ let movies = [
     director: "Frank Capra",
     duration: "2h 9min",
     genre: ["Comedy", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Blade Runner",
@@ -1158,7 +1165,7 @@ let movies = [
     director: "Ridley Scott",
     duration: "1h 57min",
     genre: ["Sci-Fi", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Casino",
@@ -1166,7 +1173,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "2h 58min",
     genre: ["Crime", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "A Beautiful Mind",
@@ -1174,7 +1181,7 @@ let movies = [
     director: "Ron Howard",
     duration: "2h 15min",
     genre: ["Biography", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The Elephant Man",
@@ -1182,7 +1189,7 @@ let movies = [
     director: "David Lynch",
     duration: "2h 4min",
     genre: ["Biography", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Smultronstället",
@@ -1190,7 +1197,7 @@ let movies = [
     director: "Ingmar Bergman",
     duration: "1h 31min",
     genre: ["Drama", "Romance"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "V for Vendetta",
@@ -1198,7 +1205,7 @@ let movies = [
     director: "James McTeigue",
     duration: "2h 12min",
     genre: ["Action", "Drama", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The Wolf of Wall Street",
@@ -1206,15 +1213,22 @@ let movies = [
     director: "Martin Scorsese",
     duration: "3h",
     genre: ["Biography", "Comedy", "Crime", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "The General",
     year: 1926,
     director: "Clyde Bruckman",
     duration: "1h 7min",
-    genre: ["Action", "Adventure", "Comedy", "Drama", "War", "Western"],
-    rate: 8.2
+    genre: [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "War",
+      "Western",
+    ],
+    rate: 8.2,
   },
   {
     title: "Warrior",
@@ -1222,7 +1236,7 @@ let movies = [
     director: 'Gavin O"Connor',
     duration: "2h 20min",
     genre: ["Drama", "Sport"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Trainspotting",
@@ -1230,7 +1244,7 @@ let movies = [
     director: "Danny Boyle",
     duration: "1h 34min",
     genre: ["Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Dial M for Murder",
@@ -1238,7 +1252,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "1h 45min",
     genre: ["Crime", "Film-Noir", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Gran Torino",
@@ -1246,7 +1260,7 @@ let movies = [
     director: "Clint Eastwood",
     duration: "1h 56min",
     genre: ["Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Sunrise: A Song of Two Humans",
@@ -1254,7 +1268,7 @@ let movies = [
     director: "F.W. Murnau",
     duration: "1h 34min",
     genre: ["Drama", "Romance"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Gone with the Wind",
@@ -1262,7 +1276,7 @@ let movies = [
     director: "Victor Fleming",
     duration: "3h 58min",
     genre: ["Drama", "History", "Romance", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Andrey Rublev",
@@ -1270,7 +1284,7 @@ let movies = [
     director: "Andrei Tarkovsky",
     duration: "3h 25min",
     genre: ["Biography", "Drama", "History"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "The Deer Hunter",
@@ -1278,7 +1292,7 @@ let movies = [
     director: "Michael Cimino",
     duration: "3h 3min",
     genre: ["Drama", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Fargo",
@@ -1286,7 +1300,7 @@ let movies = [
     director: "Joel Coen",
     duration: "1h 38min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Sixth Sense",
@@ -1294,7 +1308,7 @@ let movies = [
     director: "M. Night Shyamalan",
     duration: "1h 47min",
     genre: ["Drama", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Thing",
@@ -1302,7 +1316,7 @@ let movies = [
     director: "John Carpenter",
     duration: "1h 49min",
     genre: ["Horror", "Mystery", "Sci-Fi"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "No Country for Old Men",
@@ -1310,7 +1324,7 @@ let movies = [
     director: "Ethan Coen",
     duration: "2h 2min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Big Lebowski",
@@ -1318,7 +1332,7 @@ let movies = [
     director: "Joel Coen",
     duration: "1h 57min",
     genre: ["Comedy", "Crime"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Eskiya",
@@ -1326,7 +1340,7 @@ let movies = [
     director: "Yavuz Turgul",
     duration: "2h 8min",
     genre: ["Crime", "Drama", "Thriller"],
-    rate: 8.4
+    rate: 8.4,
   },
   {
     title: "Finding Nemo",
@@ -1334,7 +1348,7 @@ let movies = [
     director: "Andrew Stanton",
     duration: "1h 40min",
     genre: ["Animation", "Adventure", "Comedy", "Family"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Tôkyô monogatari",
@@ -1342,7 +1356,7 @@ let movies = [
     director: "Yasujirô Ozu",
     duration: "2h 16min",
     genre: ["Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "There Will Be Blood",
@@ -1350,7 +1364,7 @@ let movies = [
     director: "Paul Thomas Anderson",
     duration: "2h 38min",
     genre: ["Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Cool Hand Luke",
@@ -1358,7 +1372,7 @@ let movies = [
     director: "Stuart Rosenberg",
     duration: "2h 6min",
     genre: ["Crime", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Rebecca",
@@ -1366,7 +1380,7 @@ let movies = [
     director: "Alfred Hitchcock",
     duration: "2h 10min",
     genre: ["Drama", "Mystery", "Romance", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Hacksaw Ridge",
@@ -1374,7 +1388,7 @@ let movies = [
     director: "Mel Gibson",
     duration: "2h 19min",
     genre: ["Biography", "Drama", "History", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "La La Land",
@@ -1382,7 +1396,7 @@ let movies = [
     director: "Damien Chazelle",
     duration: "2h 8min",
     genre: ["Comedy", "Drama", "Music", "Musical", "Romance"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Idi i smotri",
@@ -1390,7 +1404,7 @@ let movies = [
     director: "Elem Klimov",
     duration: "2h 22min",
     genre: ["Drama", "War"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Kill Bill: Vol. 1",
@@ -1398,7 +1412,7 @@ let movies = [
     director: "Quentin Tarantino",
     duration: "1h 51min",
     genre: ["Action", "Crime", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Rang De Basanti",
@@ -1406,7 +1420,7 @@ let movies = [
     director: "Rakeysh Omprakash Mehra",
     duration: "2h 37min",
     genre: ["Comedy", "Drama", "History", "Romance"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "How to Train Your Dragon",
@@ -1414,7 +1428,7 @@ let movies = [
     director: "Dean DeBlois",
     duration: "1h 38min",
     genre: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: 'La passion de Jeanne d"Arc',
@@ -1422,7 +1436,7 @@ let movies = [
     director: "Carl Theodor Dreyer",
     duration: "1h 50min",
     genre: ["Biography", "Drama", "History"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Mary and Max",
@@ -1430,7 +1444,7 @@ let movies = [
     director: "Adam Elliot",
     duration: "1h 32min",
     genre: ["Animation", "Comedy", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Gone Girl",
@@ -1438,7 +1452,7 @@ let movies = [
     director: "David Fincher",
     duration: "2h 29min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Into the Wild",
@@ -1446,7 +1460,7 @@ let movies = [
     director: "Sean Penn",
     duration: "2h 28min",
     genre: ["Adventure", "Biography", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Shutter Island",
@@ -1454,7 +1468,7 @@ let movies = [
     director: "Martin Scorsese",
     duration: "2h 18min",
     genre: ["Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Logan",
@@ -1462,7 +1476,7 @@ let movies = [
     director: "James Mangold",
     duration: "2h 17min",
     genre: ["Action", "Drama", "Sci-Fi", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "It Happened One Night",
@@ -1470,7 +1484,7 @@ let movies = [
     director: "Frank Capra",
     duration: "1h 45min",
     genre: ["Comedy", "Romance"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Life of Brian",
@@ -1478,7 +1492,7 @@ let movies = [
     director: "Terry Jones",
     duration: "1h 34min",
     genre: ["Comedy"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Relatos salvajes",
@@ -1486,7 +1500,7 @@ let movies = [
     director: "Damián Szifron",
     duration: "2h 2min",
     genre: ["Comedy", "Drama", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "A Wednesday",
@@ -1494,7 +1508,7 @@ let movies = [
     director: "Neeraj Pandey",
     duration: "1h 44min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.3
+    rate: 8.3,
   },
   {
     title: "Platoon",
@@ -1502,7 +1516,7 @@ let movies = [
     director: "Oliver Stone",
     duration: "2h",
     genre: ["Drama", "War"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Hotel Rwanda",
@@ -1510,7 +1524,7 @@ let movies = [
     director: "Terry George",
     duration: "2h 1min",
     genre: ["Biography", "Drama", "History", "War"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Le salaire de la peur",
@@ -1518,7 +1532,7 @@ let movies = [
     director: "Henri-Georges Clouzot",
     duration: "2h 11min",
     genre: ["Adventure", "Drama", "Thriller"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Network",
@@ -1526,7 +1540,7 @@ let movies = [
     director: "Sidney Lumet",
     duration: "2h 1min",
     genre: ["Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Rush",
@@ -1534,7 +1548,7 @@ let movies = [
     director: "Ron Howard",
     duration: "2h 3min",
     genre: ["Action", "Biography", "Drama", "History", "Sport"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "In the Name of the Father",
@@ -1542,7 +1556,7 @@ let movies = [
     director: "Jim Sheridan",
     duration: "2h 13min",
     genre: ["Biography", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Stand by Me",
@@ -1550,7 +1564,7 @@ let movies = [
     director: "Rob Reiner",
     duration: "1h 29min",
     genre: ["Adventure", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Persona",
@@ -1558,7 +1572,7 @@ let movies = [
     director: "Ingmar Bergman",
     duration: "1h 25min",
     genre: ["Drama", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Ben-Hur",
@@ -1566,7 +1580,7 @@ let movies = [
     director: "William Wyler",
     duration: "3h 32min",
     genre: ["Adventure", "Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Grand Budapest Hotel",
@@ -1574,7 +1588,7 @@ let movies = [
     director: "Wes Anderson",
     duration: "1h 39min",
     genre: ["Adventure", "Comedy", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Les quatre cents coups",
@@ -1582,7 +1596,7 @@ let movies = [
     director: "François Truffaut",
     duration: "1h 32min",
     genre: ["Crime", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Salinui chueok",
@@ -1590,7 +1604,7 @@ let movies = [
     director: "Joon-ho Bong",
     duration: "2h 11min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "12 Years a Slave",
@@ -1598,7 +1612,7 @@ let movies = [
     director: "Steve McQueen",
     duration: "2h 14min",
     genre: ["Biography", "Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Mad Max: Fury Road",
@@ -1606,7 +1620,7 @@ let movies = [
     director: "George Miller",
     duration: "2h",
     genre: ["Action", "Adventure", "Sci-Fi", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Jurassic Park",
@@ -1614,7 +1628,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "2h 7min",
     genre: ["Adventure", "Sci-Fi", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Spotlight",
@@ -1622,7 +1636,7 @@ let movies = [
     director: "Tom McCarthy",
     duration: "2h 8min",
     genre: ["Crime", "Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Million Dollar Baby",
@@ -1630,7 +1644,7 @@ let movies = [
     director: "Clint Eastwood",
     duration: "2h 12min",
     genre: ["Drama", "Sport"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Stalker",
@@ -1638,7 +1652,7 @@ let movies = [
     director: "Andrei Tarkovsky",
     duration: "2h 42min",
     genre: ["Drama", "Sci-Fi"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Butch Cassidy and the Sundance Kid",
@@ -1646,7 +1660,7 @@ let movies = [
     director: "George Roy Hill",
     duration: "1h 50min",
     genre: ["Biography", "Crime", "Drama", "Western"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Amores perros",
@@ -1654,7 +1668,7 @@ let movies = [
     director: "Alejandro González Iñárritu",
     duration: "2h 34min",
     genre: ["Drama", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Truman Show",
@@ -1662,7 +1676,7 @@ let movies = [
     director: "Peter Weir",
     duration: "1h 43min",
     genre: ["Comedy", "Drama", "Sci-Fi"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: 'Hachi: A Dog"s Tale',
@@ -1670,7 +1684,7 @@ let movies = [
     director: "Lasse Hallström",
     duration: "1h 33min",
     genre: ["Drama", "Family"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Maltese Falcon",
@@ -1678,7 +1692,7 @@ let movies = [
     director: "John Huston",
     duration: "1h 40min",
     genre: ["Film-Noir", "Mystery"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Kaze no tani no Naushika",
@@ -1686,7 +1700,7 @@ let movies = [
     director: "Hayao Miyazaki",
     duration: "1h 57min",
     genre: ["Animation", "Adventure", "Fantasy", "Sci-Fi"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Princess Bride",
@@ -1694,7 +1708,7 @@ let movies = [
     director: "Rob Reiner",
     duration: "1h 38min",
     genre: ["Adventure", "Family", "Fantasy", "Romance"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Before Sunrise",
@@ -1702,7 +1716,7 @@ let movies = [
     director: "Richard Linklater",
     duration: "1h 41min",
     genre: ["Drama", "Romance"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Le notti di Cabiria",
@@ -1710,7 +1724,7 @@ let movies = [
     director: "Federico Fellini",
     duration: "1h 50min",
     genre: ["Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Paper Moon",
@@ -1718,7 +1732,7 @@ let movies = [
     director: "Peter Bogdanovich",
     duration: "1h 42min",
     genre: ["Comedy", "Crime", "Drama"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Prisoners",
@@ -1726,7 +1740,7 @@ let movies = [
     director: "Denis Villeneuve",
     duration: "2h 33min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Harry Potter and the Deathly Hallows: Part 2",
@@ -1734,7 +1748,7 @@ let movies = [
     director: "David Yates",
     duration: "2h 10min",
     genre: ["Adventure", "Drama", "Fantasy", "Mystery"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Grapes of Wrath",
@@ -1742,7 +1756,7 @@ let movies = [
     director: "John Ford",
     duration: "2h 9min",
     genre: ["Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Rocky",
@@ -1750,7 +1764,7 @@ let movies = [
     director: "John G. Avildsen",
     duration: "2h",
     genre: ["Drama", "Sport"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Catch Me If You Can",
@@ -1758,7 +1772,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "2h 21min",
     genre: ["Biography", "Crime", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Touch of Evil",
@@ -1766,7 +1780,7 @@ let movies = [
     director: "Orson Welles",
     duration: "1h 35min",
     genre: ["Crime", "Drama", "Film-Noir", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Les diaboliques",
@@ -1774,7 +1788,7 @@ let movies = [
     director: "Henri-Georges Clouzot",
     duration: "1h 57min",
     genre: ["Crime", "Drama", "Horror", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Gandhi",
@@ -1782,7 +1796,7 @@ let movies = [
     director: "Richard Attenborough",
     duration: "3h 11min",
     genre: ["Biography", "Drama", "History"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Donnie Darko",
@@ -1790,7 +1804,7 @@ let movies = [
     director: "Richard Kelly",
     duration: "1h 53min",
     genre: ["Drama", "Sci-Fi", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Munna Bhai M.B.B.S.",
@@ -1798,7 +1812,7 @@ let movies = [
     director: "Rajkumar Hirani",
     duration: "2h 36min",
     genre: ["Comedy", "Drama", "Romance"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Monsters, Inc.",
@@ -1806,7 +1820,7 @@ let movies = [
     director: "Pete Docter",
     duration: "1h 32min",
     genre: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Star Wars: Episode VII - The Force Awakens",
@@ -1814,7 +1828,7 @@ let movies = [
     director: "J.J. Abrams",
     duration: "2h 16min",
     genre: ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Annie Hall",
@@ -1822,7 +1836,7 @@ let movies = [
     director: "Woody Allen",
     duration: "1h 33min",
     genre: ["Comedy", "Romance"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Terminator",
@@ -1830,7 +1844,7 @@ let movies = [
     director: "James Cameron",
     duration: "1h 47min",
     genre: ["Action", "Sci-Fi"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "Barry Lyndon",
@@ -1838,7 +1852,7 @@ let movies = [
     director: "Stanley Kubrick",
     duration: "3h 4min",
     genre: ["Adventure", "Drama", "History", "War"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Bourne Ultimatum",
@@ -1846,7 +1860,7 @@ let movies = [
     director: "Paul Greengrass",
     duration: "1h 55min",
     genre: ["Action", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Wizard of Oz",
@@ -1854,7 +1868,7 @@ let movies = [
     director: "Victor Fleming",
     duration: "1h 42min",
     genre: ["Adventure", "Family", "Fantasy", "Musical"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Groundhog Day",
@@ -1862,7 +1876,7 @@ let movies = [
     director: "Harold Ramis",
     duration: "1h 41min",
     genre: ["Comedy", "Fantasy", "Romance"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "La haine",
@@ -1870,7 +1884,7 @@ let movies = [
     director: "Mathieu Kassovitz",
     duration: "1h 38min",
     genre: ["Crime", "Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "8½",
@@ -1878,7 +1892,7 @@ let movies = [
     director: "Federico Fellini",
     duration: "2h 18min",
     genre: ["Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Jaws",
@@ -1886,7 +1900,7 @@ let movies = [
     director: "Steven Spielberg",
     duration: "2h 4min",
     genre: ["Adventure", "Drama", "Thriller"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "Twelve Monkeys",
@@ -1894,7 +1908,7 @@ let movies = [
     director: "Terry Gilliam",
     duration: "2h 9min",
     genre: ["Mystery", "Sci-Fi", "Thriller"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "The Best Years of Our Lives",
@@ -1902,7 +1916,7 @@ let movies = [
     director: "William Wyler",
     duration: "2h 50min",
     genre: ["Drama", "Romance", "War"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Mou gaan dou",
@@ -1910,7 +1924,7 @@ let movies = [
     director: "Wai-Keung Lau",
     duration: "1h 41min",
     genre: ["Crime", "Drama", "Mystery", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Paris, Texas",
@@ -1918,7 +1932,7 @@ let movies = [
     director: "Wim Wenders",
     duration: "2h 25min",
     genre: ["Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "The Help",
@@ -1926,7 +1940,7 @@ let movies = [
     director: "Tate Taylor",
     duration: "2h 26min",
     genre: ["Drama"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Faa yeung nin wa",
@@ -1934,15 +1948,22 @@ let movies = [
     director: "Kar-Wai Wong",
     duration: "1h 38min",
     genre: ["Drama", "Romance"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Sholay",
     year: 1975,
     director: "Ramesh Sippy",
     duration: "3h 18min",
-    genre: ["Action", "Adventure", "Comedy", "Drama", "Musical", "Thriller"],
-    rate: 8.2
+    genre: [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Musical",
+      "Thriller",
+    ],
+    rate: 8.2,
   },
   {
     title: "Beauty and the Beast",
@@ -1950,7 +1971,7 @@ let movies = [
     director: "Gary Trousdale",
     duration: "1h 24min",
     genre: ["Animation", "Family", "Fantasy", "Musical", "Romance"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "La battaglia di Algeri",
@@ -1958,7 +1979,7 @@ let movies = [
     director: "Gillo Pontecorvo",
     duration: "2h 1min",
     genre: ["Drama", "War"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Ah-ga-ssi",
@@ -1966,7 +1987,7 @@ let movies = [
     director: "Chan-wook Park",
     duration: "2h 24min",
     genre: ["Crime", "Drama", "Mystery", "Romance", "Thriller"],
-    rate: 8.1
+    rate: 8.1,
   },
   {
     title: "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -1974,7 +1995,7 @@ let movies = [
     director: "Gore Verbinski",
     duration: "2h 23min",
     genre: ["Action", "Adventure", "Fantasy"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "PK",
@@ -1982,7 +2003,7 @@ let movies = [
     director: "Rajkumar Hirani",
     duration: "2h 33min",
     genre: ["Comedy", "Drama", "Fantasy", "Sci-Fi"],
-    rate: 8.2
+    rate: 8.2,
   },
   {
     title: "Dog Day Afternoon",
@@ -1990,7 +2011,7 @@ let movies = [
     director: "Sidney Lumet",
     duration: "2h 5min",
     genre: ["Biography", "Crime", "Drama", "Thriller"],
-    rate: 8
+    rate: 8,
   },
   {
     title: "Dead Poets Society",
@@ -1998,7 +2019,6 @@ let movies = [
     director: "Peter Weir",
     duration: "2h 8min",
     genre: ["Comedy", "Drama"],
-    rate: 8
-  }
-
+    rate: 8,
+  },
 ];
