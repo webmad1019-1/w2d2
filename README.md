@@ -17,6 +17,7 @@
 * A bit on unit testing with Jasmine
 
 +Lab related to DOM manipulation with separated data model
+
 +Lab related to DOM manipulaton with callbacks and async operations
 
 # Goals
