@@ -27,6 +27,10 @@
 * Work with events
 * Update DOM in relation to a data model
 
+# Workshops - All web students
+
+* Threejs from 3.30pm to 4.05pm
+
 # Bonus
 
 A journey across all the most important jasmine features
