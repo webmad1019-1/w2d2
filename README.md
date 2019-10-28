@@ -22,10 +22,10 @@
 
 # Goals
 
-* Pay attention to code quality (QA)
-* Understand js async nature
-* Work with events
-* Update DOM in relation to a data model
+* Pay attention to code quality (QA).
+* Understand js async nature.
+* Work with events.
+* Update DOM in relation to a data model.
 
 # Bonus
 
