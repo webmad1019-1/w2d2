@@ -18,7 +18,7 @@
 
 +Lab related to DOM manipulation with separated data model
 
-+Lab related to DOM manipulaton with callbacks and async operations
++Lab related to DOM manipulation with callbacks and async operations
 
 # Goals
 
