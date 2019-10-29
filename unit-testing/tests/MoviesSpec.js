@@ -1,10 +1,15 @@
 describe("sum()", () => {
+  //remember you can use xit to cancel this test or fit to focus only on this test
   it("adding two numbers must return their addition", () => {
     expect(sum(5, 10)).toBe(15);
   });
 
   it("adding two numbers (including negatives) must return their addition", () => {
     expect(sum(5, -10)).toBe(-5);
+  });
+
+  it("adding two numbers (including decimals) must return their addition", () => {
+    expect(sum(5.8, 10.2)).toBe(16);
   });
 
   it("passing one argument not being a number must be detected", () => {
@@ -21,11 +26,14 @@ describe("sum()", () => {
 });
 
 describe("logWithDate()", () => {
-  it("console.log must be called by logWithDate", () => {
-    spyOn(console, "log");
+  xit("console.log must be called by logWithDate", () => {
+    spyOn(Math, "round");
     logWithDate("testing");
 
-    expect(console.log).toHaveBeenCalled();
+    console.log(Math.round.calls.argsFor(0)[0]);
+
+    expect(Math.round.calls.argsFor(0)[0]).toBe(10.3)
+    expect(Math.round).toHaveBeenCalled();
   });
 
   it("must return the passed string and date", () => {

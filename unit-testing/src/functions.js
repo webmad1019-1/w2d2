@@ -6,18 +6,26 @@ function sum(s1, s2) {
   return s1 + s2;
 }
 
+// function f1(txt) {
+//   console.log(txt)
+// }
+
+
+
 function logWithDate(arg, date) {
   let toBeLogged = `${arg} - ${date}`;
 
-  console.log(toBeLogged);
+  // console.log(toBeLogged);
+  // let value = Math.round(10.3)
 
+  // return toBeLogged + value;
   return toBeLogged;
 }
 
 function getRandomElements(nElements) {
   return Array(nElements)
     .fill()
-    .map(element => Math.random());
+    .map(() => Math.random());
 }
 
 function getEmployee(isAdmin = false) {
