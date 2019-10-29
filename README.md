@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/webmad1019-1/w1d3-advanced-selectors-positioning-full-layout/master/img/ironhack.svg "")
+![ironhack](https://raw.githubusercontent.com/webmad1019-1/w1d3-advanced-selectors-positioning-full-layout/master/img/ironhack.svg?sanitize=true | width=65)
 
 # Yesterday - day w2d1
 
