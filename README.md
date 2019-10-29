@@ -22,14 +22,10 @@
 
 # Goals
 
-* Pay attention to code quality (QA)
-* Understand js async nature
-* Work with events
-* Update DOM in relation to a data model
-
-# Workshops - All web students
-
-* Threejs from 3.30pm to 4.05pm
+* Pay attention to code quality (QA).
+* Understand js async nature.
+* Work with events.
+* Update DOM in relation to a data model.
 
 # Bonus
 
