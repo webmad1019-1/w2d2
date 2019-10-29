@@ -60,13 +60,13 @@ describe("getEmployee()", () => {
   });
 
   it("must return a fully qualified employee with all their properties", () => {
-    expect(getEmployee().name).not.toBeUndefined();
-    expect(getEmployee().surname).not.toBeUndefined();
-    expect(getEmployee().salary).not.toBeUndefined();
+    expect(getEmployee().name).toBeDefined();
+    expect(getEmployee().surname).toBeDefined();
+    expect(getEmployee().salary).toBeDefined();
   });
 
   it("must return an administrator employee", () => {
-    expect(getEmployee(true).isAdmin).not.toBeUndefined();
+    expect(getEmployee(true).isAdmin).toBeDefined();
   });
 });
 
